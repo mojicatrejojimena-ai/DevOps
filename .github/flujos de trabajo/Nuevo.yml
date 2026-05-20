@@ -1,0 +1,8 @@
+name: CI Basico
+on: [push]
+jobs:
+ejecutar:
+runs-on: ubuntu-latest
+steps:
+- uses: actions/checkout@v3
+- name: Verificar PHP
